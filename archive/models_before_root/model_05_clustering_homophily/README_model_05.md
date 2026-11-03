@@ -61,7 +61,7 @@ First look with a mechanism (flat fee 0.3 on emitters, revenue to the poor, one 
 ## 5. Known limitations and open points
 
 - h and w have no sourced values. Swept 0 to 1 in E5.
-- Rich never collapse inside T. For the supervisor.
+- Rich never collapse inside T. Open.
 - Removal as a mechanism and the returned-share f not yet implemented.
 
 ## 6. Files

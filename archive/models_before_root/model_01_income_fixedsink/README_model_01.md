@@ -39,7 +39,7 @@ First model in this series. Earlier single-shot and vectorised versions (two_gro
 
 ## 3. Why
 
-Built as the abstract base model for the research proposal (sent 16 Sept). Design rules from the supervisor: resource dynamics are enough; the base game is immutable and mechanisms sit on top at one slot. Written in the supervisor's coding style: 2D arrays, nested loops, no functions.
+Built as the abstract base model for the research proposal (sent 16 Sept). Design rules: resource dynamics are enough; the base game is immutable and mechanisms sit on top at one slot. Coding style: 2D arrays, nested loops, no functions.
 
 Key literature: Nowak and May 1992 (lattice, copy the best neighbour); Santos and Pacheco 2011 and Vasconcelos et al. 2014 (one base model, mechanisms swapped in); Schelling 1971 (local rules, emergent outcome).
 
@@ -49,7 +49,7 @@ Total collapse. Both groups eliminated by round 510. Restraint goes extinct with
 
 ## 5. Known limitations and open points
 
-- Parameters chosen for plausibility, not sourced. The supervisor's feedback on 15 Oct: too abstract, define the agent, ground the numbers.
+- Parameters chosen for plausibility, not sourced. Feedback on 15 Oct: too abstract, define the agent, ground the numbers.
 - The sink removes a fixed amount even at zero emissions.
 - T = 1000 has no calendar meaning.
 

@@ -1,8 +1,8 @@
-# Model 00b: wealth gap
+# Model 01: wealth gap
 
 ## 1. What it is
 
-Model 00a plus one dial, k. Group A starts with k times the wealth of group B. Everything else is the same: everyone emits, no sink, same damage for all.
+Model 00 plus one dial, k. Group A starts with k times the wealth of group B. Everything else is the same: everyone emits, no sink, same damage for all.
 
 | Parameter | Value | Meaning |
 |---|---|---|
@@ -19,7 +19,7 @@ Three lines at the top (k, rA, rB), one line in the setup loop that gives each a
 
 ## 3. Why
 
-The first thing the two groups differ in. A single number makes the gap easy to sweep later. The ratio form was chosen because it is how the gap is usually described (the rich have k times as much) and because k = 1 gives model 00a back exactly.
+The first thing the two groups differ in. A single number makes the gap easy to sweep later. The ratio form was chosen because it is how the gap is usually described (the rich have k times as much) and because k = 1 gives model 00 back exactly.
 
 ## 4. Baseline result
 
@@ -38,4 +38,4 @@ No sink, no income, no mechanism, no choice. The gap only shifts who dies when. 
 
 ## 6. Files
 
-model_00b.R, README_model_00b.md
+model_01.R, README_model_01.md

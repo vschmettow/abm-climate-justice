@@ -42,7 +42,7 @@ An intermediate step (base_model_v1, 19 Oct, each restrainer removing alpha) is 
 
 ## 3. Why
 
-- Sink from data. A second literature search (50 verified sources, claude/sink-report.md) found: sinks take half of annual emissions today; the rate per unit of excess has fallen by a third since 1959 (Raupach et al. 2014); the ocean buffer stiffens (Revelle factor) and the land sink loses carbon to warming (IPCC AR6 WG1 B.4.1); the sinks still take about a third of emissions in 2100 under high emissions. The form is a fit to five sourced points, giving today's 2% at D = 267. Nobody publishes the sink in this form; stated as a fit. The supervisor asked for a sink that saturates and can recover (20 Oct).
+- Sink from data. A second literature search (50 verified sources, claude/sink-report.md) found: sinks take half of annual emissions today; the rate per unit of excess has fallen by a third since 1959 (Raupach et al. 2014); the ocean buffer stiffens (Revelle factor) and the land sink loses carbon to warming (IPCC AR6 WG1 B.4.1); the sinks still take about a third of emissions in 2100 under high emissions. The form is a fit to five sourced points, giving today's 2% at D = 267. Nobody publishes the sink in this form; stated as a fit. The sink has to saturate and be able to recover (decided 20 Oct).
 - Start at today's atmosphere. The run is 2026 to 2126; a clean atmosphere at the start was wrong.
 - Restrain, not remove. Half the population removing to reach planetary net zero is a different kind of net zero from every country reaching zero itself, which is what the Paris Agreement and national laws target. Real removal is 2 GtCO2 a year worldwide; one removing country in the old form did 20 times that. Removal belongs in the mechanism layer.
 - dg unchanged: the stronger sink and the higher D0 roughly cancel.
@@ -55,7 +55,7 @@ Ten seeds, identical. Poor out at round 41. Rich never eliminated. D rises from 
 
 ## 5. Known limitations and open points
 
-- Rich never collapse inside T. Leave as the result, or raise dg? For the supervisor.
+- Rich never collapse inside T. Leave as the result, or raise dg? Open.
 - The tipping point near half the population restraining is a coincidence of today's sink size, not a design choice.
 - dg, c, D_half and the unit scaling of alpha are chosen. Ranges for the sensitivity analysis are in claude/thesis-methods-running.md section 3.
 

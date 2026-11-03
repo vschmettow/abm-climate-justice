@@ -1,5 +1,5 @@
-#model 00. simplest base. two groups that do not differ. everyone starts equal, emits equal.
-#this is the root. every later model adds one thing to this.
+#model 00. bare. two groups that do not differ. everyone emits. no sink.
+#this is the root. every later model adds one thing.
 
 rm(list=ls())
 set.seed(100)
@@ -9,8 +9,6 @@ T=100
 r0=10          #start wealth, same for all
 c=0.1          #cost of restraining
 alpha=0.05     #emission per emitter per year
-s0=0.045       #sink rate
-Dhalf=200      #sink at half strength
 D0=267         #excess CO2 today
 dg=2e-6        #damage dg*D^2
 
@@ -41,10 +39,9 @@ for(t in 1:T){
     if(resource[i,j]<c) grid[i,j]=1
   }}
 
-  #2 commons
+  #2 commons. emissions go in, nothing comes out
   nem=sum(alive==1 & grid==1)
-  D=D+alpha*nem-s0*D/(1+D/Dhalf)
-  if(D<0) D=0
+  D=D+alpha*nem
 
   #3 pay
   for(i in 1:nd){ for(j in 1:nd){

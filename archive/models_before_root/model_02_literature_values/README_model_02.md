@@ -41,7 +41,7 @@ Each round:
 
 ## 3. Why
 
-The supervisor asked for a model that is less abstract, with numbers that can be justified. A literature search (180 verified sources, claude/grounding-report.md) gave each parameter a source or marked it as a free choice.
+The model had to become less abstract, with numbers that can be justified. A literature search (180 verified sources, claude/grounding-report.md) gave each parameter a source or marked it as a free choice.
 
 - Country as agent: UNFCCC one Party one vote (Vihma 2015, Kemp 2016); two wealth classes as in Vasconcelos et al. 2014.
 - a = 0.9: decarbonisation costs 1 to 4% of GDP (IPCC AR6 WG3 C.12.2). The old 0.4 implied a 60% income loss.

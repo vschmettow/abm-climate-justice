@@ -1,5 +1,5 @@
-#model 00b. model 00a plus a wealth gap. group A starts with k times the wealth of group B.
-#k = 1 gives model 00a back. mean wealth stays at r0 whatever k is.
+#model 01. model 00 plus a wealth gap. group A starts with k times the wealth of group B.
+#k = 1 gives model 00 back. mean wealth stays at r0 whatever k is.
 
 rm(list=ls())
 set.seed(100)
